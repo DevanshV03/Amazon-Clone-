@@ -1,0 +1,481 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+
+.logo{
+    background-image: url("Amazon_logo.png");
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+
+/** deliver to box **/
+
+
+
+.add-first{
+    color: #CCCCCC;
+    font-size: 0.70rem;
+    margin-left: 15px;
+}
+
+.add-second{
+    color: white;
+    font-size: 0.85rem;
+    margin-left: 3px;
+    font-weight: 700;
+
+}
+
+.add-icon-add{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+/**Search Bar**/
+
+
+.searchbox{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 720px;
+    border-radius: 5px;
+}
+
+.categories{
+    height: 40px;
+    width: 55px;
+    background-color: #E6E6E6;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+.categories:hover{
+    cursor: pointer;
+    background-color: #cecece;
+}
+
+
+.searchbar{
+    width: 100%;
+    font-size: 0.90rem;
+    border: none;
+}
+
+
+.searchicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    font-size: 1.2rem;
+    background-color: #FEBD69;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #131921;
+
+}
+
+.searchicon:hover{
+    cursor: pointer;
+    background-color: #fcb252;
+}
+
+/**LANGAUGE SELECTION**/
+
+.language-box{
+    background-color: #131921;
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    width:73px ;
+    border-radius: 5px;
+    border: none;
+}
+
+.imgflag{
+    height: 16px;
+    width: 22px;
+    align-self:center;
+    border: none;
+}
+
+.country{
+    height: 50%;
+    background-color: #131921;
+    color: white;
+    border: none;
+    margin-left: 3px;
+    align-self: center;
+    font-weight: bold;
+}
+
+/** Accounts and list, Returns and Orders**/
+
+
+
+span{
+    color: white;
+    font-size: 0.7rem;
+}
+
+.login-and-orders{
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**Shopping cart icon**/
+
+
+.shoppingcart i{
+    color: white;
+    font-size: 30px;
+
+    display: flex;
+}
+
+.shoppingcart {
+    color: white;
+    display: flex;
+
+}
+
+.cart{
+    align-self: flex-end;
+    margin: 4px;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+/** Panel Items **/
+
+.panel{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    background-color: #232F3E;
+    height: 39px;
+}
+
+.panelicon{
+    height: 35px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panelicon i{
+    margin: 3px;
+}
+
+.panelicon p{
+    margin: 4px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.paneloptions p{
+
+    display: inline;
+    font-size: 0.85rem;
+    margin: 5px;
+    font-weight: 200;
+}
+
+.paneloptions{
+    width: 100%;
+
+}
+
+/** Hero Section **/
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 320px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.display-msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 97%;
+    margin-bottom: 25px;
+}
+
+.display-msg a{
+    text-decoration: none;
+    color: #007185;
+}
+
+.display-msg a:hover{
+    text-decoration:underline;
+}
+
+/** Main content **/
+
+.main-content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e1eaec;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 400px;
+    width: 20%;
+    background-color: white;
+    padding: 25px 20px 0px 20px;
+    margin-bottom: 20px;
+}
+
+.box1 h2{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.box1 p{
+    margin-top: 20px;
+    font-size: 0.80rem;
+}
+
+.box1-img{
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+    height: 304px;
+
+}
+
+.box2 h2{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.box2 p{
+    margin-top: 20px;
+    font-size: 0.80rem;
+}
+
+.box2-img{
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+    height: 304px;
+
+}
+
+.box3 h2{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.box3 p{
+    margin-top: 20px;
+    font-size: 0.80rem;
+}
+
+.box3-img{
+    background-image: url("box3_image.jpg");
+    background-size: cover;
+    height: 304px;
+
+}
+
+.box4 h2{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.box4 p{
+    margin-top: 20px;
+    font-size: 0.80rem;
+}
+
+.box4-img{
+    background-image: url("box4_image.jpg");
+    background-size: cover;
+    height: 304px;
+
+}
+
+.box5 h2{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.box5 p{
+    margin-top: 20px;
+    font-size: 0.80rem;
+}
+
+.box5-img{
+    background-image: url("box5_image.jpg");
+    background-size: cover;
+    height: 304px;
+
+}
+
+.box6 h2{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.box6 p{
+    margin-top: 20px;
+    font-size: 0.80rem;
+}
+
+.box6-img{
+    background-image: url("box6_image.jpg");
+    background-size: cover;
+    height: 304px;
+
+}
+
+.box7 h2{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.box7 p{
+    margin-top: 20px;
+    font-size: 0.80rem;
+}
+
+.box7-img{
+    background-image: url("box7_image.jpg");
+    background-size: cover;
+    height: 304px;
+
+}
+
+.box8 h2{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.box8 p{
+    margin-top: 20px;
+    font-size: 0.80rem;
+}
+
+.box8-img{
+    background-image: url("box8_image.jpg");
+    background-size: cover;
+    height: 304px;
+
+}
+
+.box p{
+    color: #8EC0C9;
+}
+
+.box p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+/** Footer Design **/
+
+.panel1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e4f64;
+    font-size: 0.80rem;
+    height: 19px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.panel1:hover{
+    background-color:#4c617a ;
+    cursor: pointer;
+}
+
+.panel2{
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    background-color: #232F3E;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.panel2 ul{
+    margin-top: 30px;
+    align-content: center;
+    justify-content: center;
+}
+
+ul a{
+    display: block;
+    margin-bottom: 7px;
+    text-decoration: none;
+    color: white;
+    flex-wrap: wrap;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+ul p{
+    margin-bottom: 10px;
+    font-weight: 700;
+    flex-wrap: nowrap;
+}
+
+.panel3{
+    background-color: #232F3E;
+    border-top: 0.5px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
